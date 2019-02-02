@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#d7def4"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <android.support.v7.widget.CardView
+                android:layout_width="170dp"
+                android:layout_weight="1"
+                android:layout_height="220dp"
+                android:id="@+id/teamcsk">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/team_csk"/>
+
+
+            </android.support.v7.widget.CardView>
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"></View>
+            <android.support.v7.widget.CardView
+                android:layout_width="170dp"
+                android:id="@+id/teamdd"
+                android:layout_weight="1"
+                android:layout_height="220dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/team_dd"/>
+
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <android.support.v7.widget.CardView
+                android:layout_width="170dp"
+                android:id="@+id/teamkxi"
+                android:layout_weight="1"
+                android:layout_height="220dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/team_kings"/>
+
+
+            </android.support.v7.widget.CardView>
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"></View>
+            <android.support.v7.widget.CardView
+                android:layout_width="170dp"
+                android:layout_weight="1"
+                android:id="@+id/teamkkr"
+                android:layout_height="220dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/team_kkr"/>
+
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <android.support.v7.widget.CardView
+                android:layout_width="170dp"
+                android:id="@+id/teammi"
+                android:layout_weight="1"
+                android:layout_height="220dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/team_mi"/>
+
+
+            </android.support.v7.widget.CardView>
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"></View>
+            <android.support.v7.widget.CardView
+                android:layout_width="170dp"
+                android:id="@+id/teamrcb"
+                android:layout_weight="1"
+                android:layout_height="220dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/team_rcb"/>
+
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <android.support.v7.widget.CardView
+                android:layout_width="170dp"
+                android:id="@+id/teamrr"
+                android:layout_weight="1"
+                android:layout_height="220dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/team_rr"/>
+
+
+            </android.support.v7.widget.CardView>
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"></View>
+            <android.support.v7.widget.CardView
+                android:layout_width="170dp"
+                android:id="@+id/teamsrh"
+                android:layout_weight="1"
+                android:layout_height="220dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/team_srh"/>
+
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

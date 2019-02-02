@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="185dp"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/framelayout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF2C5D8C"
+            ></ImageView>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MATCH 1"
+                android:id="@+id/matchno"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+            <FrameLayout
+                android:layout_width="340dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/team1image"
+                            android:src="@drawable/india"/>
+
+                    </FrameLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="90dp"
+
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="INDIA"
+                                android:id="@+id/team1name"
+                                android:textAlignment="viewStart"
+                                android:layout_weight="1"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:layout_marginLeft="0dp"/>
+
+
+                            <TextView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="110/2"
+                                android:id="@+id/team1score"
+                                android:layout_weight="1"
+                                android:textColor="@color/white"
+                                android:textSize="15sp"
+                                android:textAlignment="viewEnd"
+                                android:layout_marginLeft="10dp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="RR 9.40"
+                                android:id="@+id/team1rr"
+                                android:textAlignment="viewEnd"
+
+                                android:layout_weight="1"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:layout_marginLeft="10dp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="20/20"
+                                android:id="@+id/team1over"
+                                android:textAlignment="viewEnd"
+
+                                android:layout_weight="1"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:layout_marginLeft="10dp"/>
+
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="90dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="INDIA"
+                                android:id="@+id/team2name"
+                                android:textAlignment="textEnd"
+                                android:layout_weight="1"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:layout_marginLeft="0dp"/>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="110/2"
+                                android:id="@+id/team2Score"
+                                android:layout_weight="1"
+                                android:textColor="@color/white"
+                                android:textSize="15sp"
+                                android:textAlignment="viewStart"
+                                android:layout_marginLeft="10dp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="RR 9.40"
+                                android:textAlignment="viewStart"
+                                android:id="@+id/team2rr"
+
+                                android:layout_weight="1"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:layout_marginLeft="10dp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="20/20"
+                                android:textAlignment="viewStart"
+                                android:id="@+id/team2over"
+
+                                android:layout_weight="1"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:layout_marginLeft="10dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <FrameLayout
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/team2image"
+                            android:src="@drawable/india"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+
+        </FrameLayout>
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom|center"
+            android:id="@+id/headerbtn"
+            android:text="Match center"
+            android:textSize="8dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="India won by 4 runs"
+            android:id="@+id/result"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="138dp"
+            android:textSize="10dp"/>
+
+
+    </FrameLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PLAYING XI :"
+            android:textStyle="bold"
+            android:id="@+id/header"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text=">  CSK"
+            android:id="@+id/team1nameinfo"
+
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/team2nameinfo"
+            android:layout_marginTop="5dp"
+            android:text=">  SRH"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MATCH INFO :"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:text=">  MATCH :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#fff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/matchbtwn"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:text="CSK vs SRH"
+                android:textSize="20sp"
+                android:background="#fff"
+
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+
+                android:layout_marginTop="5dp"
+                android:text=">  SERIES :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#fff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:id="@+id/series"
+                android:layout_marginTop="5dp"
+                android:text="IPL"
+                android:textSize="20sp"
+                android:background="#fff"
+
+                />
+
+
+
+        </LinearLayout>    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text=">  TOSS :"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/toss"
+            android:layout_marginTop="5dp"
+            android:text="CSK vs SRH"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+
+
+
+    </LinearLayout>    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+
+            android:layout_marginTop="5dp"
+            android:text=">  MOTM :"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/motm"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:text="CSK vs SRH"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+
+
+
+    </LinearLayout>    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+
+            android:layout_marginTop="5dp"
+            android:text=">  RESULT :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/resultinfo"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:text="CSK vs SRH"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+
+
+
+    </LinearLayout>    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+
+            android:layout_marginTop="5dp"
+            android:text=">  DATE :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/date"
+            android:layout_marginTop="5dp"
+            android:text="CSK vs SRH"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+
+
+
+    </LinearLayout>    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+
+            android:layout_marginTop="5dp"
+            android:text=">  TIME :"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/time"
+            android:layout_marginTop="5dp"
+            android:text="CSK vs SRH"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+
+
+
+    </LinearLayout>    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+
+            android:layout_marginTop="5dp"
+            android:text=">  STADIUM :"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/stadium"
+            android:layout_marginTop="5dp"
+            android:text="CSK vs SRH"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+
+
+
+    </LinearLayout>    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text=">  UMPIRES :"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/umpires"
+            android:layout_marginTop="5dp"
+            android:text="CSK vs SRH"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+
+
+
+    </LinearLayout>    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+
+            android:layout_marginTop="5dp"
+            android:text=">  REFEREE :"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/referee"
+            android:layout_marginTop="5dp"
+            android:text="CSK vs SRH"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+
+
+
+    </LinearLayout>    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+
+            android:layout_marginTop="5dp"
+            android:text=">  WEATHER :"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/weather"
+            android:text="CSK vs SRH"
+            android:textSize="20sp"
+            android:background="#fff"
+
+            />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

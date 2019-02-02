@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        app:cardElevation="8dp"
+
+        app:cardCornerRadius="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f2cfdf"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:background="@drawable/shard_ipl"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:id="@+id/imageViewplayer"
+                    android:layout_width="120dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="match_parent"
+
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/missing_player"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:background="#5351b4">
+
+                <TextView
+                    android:id="@+id/textViewplayer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TEXT"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+
+
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+

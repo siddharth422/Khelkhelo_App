@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#dfdddd"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PLAYING XI :"
+                android:textStyle="bold"
+                android:id="@+id/header"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text=">  CSK"
+                android:id="@+id/team1nameinfo"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:background="#fff" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Full Scored"
+                    android:textColor="@color/colorPrimary"
+                    android:id="@+id/scorecard"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:background="#fff" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/team2nameinfo"
+                android:layout_marginTop="5dp"
+                android:text=">  SRH"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:background="#fff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Full Scored"
+                android:id="@+id/scorecard2"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:background="#fff" />
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MATCH INFO :"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#fff"
+
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:layout_marginTop="5dp"
+                    android:text=">  MATCH :"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="#fff"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/matchbtwn"
+                    android:layout_weight="1"
+                    android:layout_marginTop="5dp"
+                    android:text="CSK vs SRH"
+                    android:textSize="15sp"
+                    android:background="#fff"
+
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="#fff"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+
+                    android:layout_marginTop="5dp"
+                    android:text=">  SERIES :"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="#fff"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:id="@+id/series"
+                    android:layout_marginTop="5dp"
+                    android:text="IPL"
+                    android:textSize="15sp"
+                    android:background="#fff"
+
+                    />
+
+
+
+            </LinearLayout>    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text=">  TOSS :"
+                android:textSize="20sp"
+                android:background="#fff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:id="@+id/toss"
+                android:layout_marginTop="5dp"
+                android:text="CSK vs SRH"
+                android:textSize="15sp"
+                android:background="#fff"
+
+                />
+
+
+
+        </LinearLayout>    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:textStyle="bold"
+
+                android:layout_marginTop="5dp"
+                android:text=">  MOTM :"
+                android:textSize="20sp"
+                android:background="#fff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/motm"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:text="CSK vs SRH"
+                android:textSize="15sp"
+                android:background="#fff"
+
+                />
+
+
+
+        </LinearLayout>    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+
+                android:layout_marginTop="5dp"
+                android:text=">  RESULT :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="#fff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/resultinfo"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:text="CSK vs SRH"
+                android:textSize="15sp"
+                android:background="#fff"
+
+                />
+
+
+
+        </LinearLayout>    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+
+                android:layout_marginTop="5dp"
+                android:text=">  DATE :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="#fff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:id="@+id/date"
+                android:layout_marginTop="5dp"
+                android:text="CSK vs SRH"
+                android:textSize="15sp"
+                android:background="#fff"
+
+                />
+
+
+
+        </LinearLayout>    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+
+                android:layout_marginTop="5dp"
+                android:text=">  TIME :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="#fff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:id="@+id/time"
+                android:layout_marginTop="5dp"
+                android:text="CSK vs SRH"
+                android:textSize="15sp"
+                android:background="#fff"
+
+                />
+
+
+
+        </LinearLayout>    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:textStyle="bold"
+                android:layout_weight="1"
+
+                android:layout_marginTop="5dp"
+                android:text=">  STADIUM :"
+                android:textSize="20sp"
+                android:background="#fff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:id="@+id/stadium"
+                android:layout_marginTop="5dp"
+                android:text="CSK vs SRH"
+                android:textSize="15sp"
+                android:background="#fff"
+
+                />
+
+
+
+        </LinearLayout>    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text=">  UMPIRES :"
+                android:textSize="20sp"
+                android:background="#fff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:id="@+id/umpires"
+                android:layout_marginTop="5dp"
+                android:text="CSK vs SRH"
+                android:textSize="15sp"
+                android:background="#fff"
+
+                />
+
+
+
+        </LinearLayout>    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:textStyle="bold"
+
+                android:layout_marginTop="5dp"
+                android:text=">  REFEREE :"
+                android:textSize="20sp"
+                android:background="#fff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:id="@+id/referee"
+                android:layout_marginTop="5dp"
+                android:text="CSK vs SRH"
+                android:textSize="15sp"
+                android:background="#fff"
+
+                />
+
+
+
+        </LinearLayout>    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:textStyle="bold"
+
+                android:layout_marginTop="5dp"
+                android:text=">  WEATHER :"
+                android:textSize="20sp"
+                android:background="#fff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:id="@+id/weather"
+                android:text="CSK vs SRH"
+                android:textSize="15sp"
+                android:background="#fff"
+
+                />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

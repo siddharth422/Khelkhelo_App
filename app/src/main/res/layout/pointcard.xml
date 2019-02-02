@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:id="@+id/teamimagepoint"
+            android:src="@drawable/team_csk"/>
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="Team"
+
+
+            android:layout_marginTop="5dp"
+            android:id="@+id/pteamname"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P"
+            android:layout_marginTop="5dp"
+
+            android:id="@+id/pteamplay"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/pteamwin"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"
+            android:text="W"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NR"
+            android:id="@+id/pteamnr"
+
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="NRR"
+
+            android:id="@+id/pteamnrr"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="PTS"
+
+            android:id="@+id/pteampoints"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

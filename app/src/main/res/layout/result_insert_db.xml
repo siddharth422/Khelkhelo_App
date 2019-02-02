@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/navibacg"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Match number"
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="15dp"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/match_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:hint="Enter Team 1 Name"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/team1name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Team 2 Name"
+                android:layout_weight="1"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/team2_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:hint="Enter Team 1 Run"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="15dp">
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/team1_run"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="text"/>
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Enter Team 2 Run"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="15dp">
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/team2_run"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="text"/>
+                </android.support.design.widget.TextInputLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:hint="Enter Team 1 Over"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="15dp">
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/team1over"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="text"/>
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Enter Team 2 Over"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="15dp">
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/team2over"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="text"/>
+                </android.support.design.widget.TextInputLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:id="@+id/rr1"
+                android:textSize="16dp"
+                android:inputType="number"
+                android:layout_marginTop="25dp"
+                android:text="Runrate"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="16dp"
+                    android:id="@+id/rr2"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="25dp"
+                    android:text="Runrate"/>
+
+            </LinearLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Team 1 URL"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/team1url"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Team 2 URL"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/team2url"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Match Teams"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/match_Teams"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textPersonName"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Series"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/series"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Toss"
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="15dp"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/toss"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="MOTM"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/motm"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Result"
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="15dp"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/result"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Date"
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="15dp"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Time"
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="15dp"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Stadium"
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="15dp"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/stadium"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Umpires"
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="15dp"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/umpires"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Referes"
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="15dp"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/referes"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Weather"
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="15dp"
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/weather"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/save"
+                android:layout_marginTop="15dp"
+                android:text="Save"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

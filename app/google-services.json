@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "469716984118",
+    "firebase_url": "https://khelkhelo-70dad.firebaseio.com",
+    "project_id": "khelkhelo-70dad",
+    "storage_bucket": "khelkhelo-70dad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469716984118:android:9a8bc6ee914bae64",
+        "android_client_info": {
+          "package_name": "com.example.siddharth.khelkhelo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469716984118-d5f3306gqvpob6j7anf8u67dljr66raf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.siddharth.khelkhelo",
+            "certificate_hash": "d2f8dc96a5aa0026d9da02c2ff5569c02e940858"
+          }
+        },
+        {
+          "client_id": "469716984118-jgcq3ge2io3hr0t94uqe0igr256jh10d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwFPqq3qQt2jBNpJDDrOpepF1E7cDtO0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469716984118-jgcq3ge2io3hr0t94uqe0igr256jh10d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

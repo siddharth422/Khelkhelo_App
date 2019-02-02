@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:id="@+id/visible"
+        android:background="@drawable/mc_bg_aus">
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="180dp"
+        android:id="@+id/masked"
+        app:cardCornerRadius="5dp"
+        android:background="@color/white"
+
+        app:cardElevation="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Enter Team Name"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/teamname"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Captain Name"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/nameedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textPersonName"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Your Email"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/emailedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textEmailAddress"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Your Password"
+                android:paddingLeft="5dp"
+
+                android:layout_marginTop="15dp"
+                app:passwordToggleEnabled="true">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/passwordedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/register"
+                android:layout_marginTop="15dp"
+                android:text="SIGN UP"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

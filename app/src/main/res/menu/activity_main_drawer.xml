@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Teams"
+            android:icon="@drawable/ic_team"
+            android:title="Teams" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/nav_result"
+            android:icon="@drawable/ic_icon_fantasy"
+            android:title="Results" />
+
+        <item
+            android:id="@+id/nav_registerteams"
+            android:icon="@drawable/logo_ipl_white"
+            android:title="Register Teams" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/ic_payment"
+            android:title="Payment" />
+
+    </group>
+
+    <item android:title="Admin">
+        <menu>
+            <item
+                android:id="@+id/resultupload"
+                android:icon="@drawable/ic_star"
+                android:title="Result Upload" />
+            <item
+                android:id="@+id/image_upload"
+                android:icon="@drawable/ic_feedback"
+                android:title="Schedule Upload" />
+            <item
+                android:id="@+id/imageupload"
+                android:icon="@drawable/ic_feedback"
+                android:title="Image Upload" />
+
+        </menu>
+    </item>
+
+    <item android:title="FeedBacks">
+        <menu>
+            <item
+                android:id="@+id/nav_rateaap"
+                android:icon="@drawable/ic_star"
+                android:title="Rate The App" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+        </menu>
+    </item>
+    <item android:title="Choose features">
+        <menu>
+
+            <item
+                android:id="@+id/nav_aboutapp"
+                android:icon="@drawable/ic_announcement"
+                android:title="About App" />
+        </menu>
+    </item>
+
+</menu>

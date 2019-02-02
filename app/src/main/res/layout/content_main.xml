@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.khelkhelo.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/background1"
+      android:fillViewport="true">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/framelayout">
+
+   <android.support.v7.widget.RecyclerView
+
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/recycle_view_home">
+
+   </android.support.v7.widget.RecyclerView>
+
+
+    </FrameLayout>
+
+
+
+
+
+
+    <Button
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/team"
+        android:drawablePadding="10dp"
+        android:text="Tournament"
+        android:id="@+id/team_button"
+        android:textColor="#fff"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:background="@null"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/logo_ipl_white"
+        android:drawablePadding="10dp"
+        android:text="Results"
+        android:id="@+id/resultbtn"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:background="@null"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ven"
+        android:drawablePadding="10dp"
+        android:text="venues"
+        android:id="@+id/venuebtn"
+        android:textColor="#fff"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:background="@null"
+        android:layout_marginLeft="20dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/standing"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="10dp"
+        android:text="Point Table"
+        android:id="@+id/pointtable"
+
+        android:textColor="#fff"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:background="@null"
+        android:layout_marginLeft="20dp" />
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:drawableLeft="@drawable/vedio"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:drawablePadding="10dp"-->
+        <!--android:text="videos"-->
+        <!--android:id="@+id/videobtn"-->
+        <!--android:textColor="#fff"-->
+        <!--android:textAlignment="textStart"-->
+        <!--android:textSize="20sp"-->
+        <!--android:background="@null"-->
+        <!--android:layout_marginLeft="20dp" />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_photo_camera_black_24dp"
+        android:drawablePadding="10dp"
+        android:text="Photo"
+        android:id="@+id/photobtn"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:background="@null"
+        android:layout_marginLeft="20dp" />
+
+
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:drawableLeft="@drawable/ic_icon_fantasy"-->
+        <!--android:drawablePadding="0dp"-->
+        <!--android:text="Archive"-->
+        <!--android:id="@+id/archivebtn"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:textColor="#fff"-->
+        <!--android:textAlignment="textStart"-->
+        <!--android:textSize="20sp"-->
+        <!--android:background="@null"-->
+        <!--android:layout_marginLeft="20dp" />-->
+
+
+
+
+   </LinearLayout>
+
+
+  </ScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>
